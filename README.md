@@ -1,6 +1,7 @@
 # License Plate Detection and Character Recognition System 
 
 INTRODUCTION
+
 1.1 Project Overview
 
 This project implements an automated License Plate Detection and Character Recognition System using deep learning and optical character recognition techniques. The system is designed to detect vehicle license plates from images, extract the plate region, and recognize the alphanumeric characters present on the plate.
@@ -17,6 +18,7 @@ Improve OCR performance through image preprocessing techniques
 Build a complete pipeline from input image to final plate text output
 
 1.3 Technology Stack
+
 Deep Learning Model: CNN (Convolutional Neural Network)
 OCR Engine: EasyOCR
 Image Processing: OpenCV
@@ -25,6 +27,7 @@ Development Environment: Jupyter Notebook / Google Colab
 Additional Libraries: NumPy, Matplotlib, Pandas, OS, Regex
 
 DATASET
+
 2.1 Dataset Overview
 The dataset consists of vehicle images containing visible license plates. These images were used to train and test the system for detecting plate regions and recognizing the text written on them.
 
@@ -48,6 +51,7 @@ Plate region extraction after detection
 Preprocessing of cropped plates for better OCR accuracy
 
 MODELS AND ARCHITECTURE
+
 3.1 CNN Model
 3.1.1 Model Selection
 
@@ -83,6 +87,7 @@ Output: Extracted vehicle registration text
 After the license plate is cropped from the vehicle image, EasyOCR processes the plate image and extracts the text written on it. This text is then cleaned and formatted to generate the final recognized license plate number.
 
 SYSTEM PIPELINE
+
 4.1 Complete Processing Pipeline
 The complete system workflow is as follows:
 
@@ -103,6 +108,7 @@ Text Cleaning and Formatting
 Final Output: Recognized License Plate Number
 
 IMAGE PREPROCESSING TECHNIQUES
+
 5.1 Preprocessing Pipeline
 To improve the quality of license plate recognition, image preprocessing steps are applied before OCR.
 
@@ -131,6 +137,7 @@ The detected plate region is extracted from the original image
 Only the cropped plate area is passed to EasyOCR for recognition
 
 IMPLEMENTATION DETAILS
+
 6.1 Project Workflow
 The project is implemented in a step-by-step pipeline:
 Install and import required libraries
@@ -154,6 +161,7 @@ Running EasyOCR on the processed plate
 Returning the final recognized text
 
 RESULTS
+
 7.1 Detection Performance
 The system is able to detect number plate regions from vehicle images under normal conditions. It performs well when:
 The number plate is clearly visible
@@ -176,6 +184,7 @@ Recognized license plate text
 Optionally, processed intermediate plate image for visualization
 
 APPLICATIONS AND FUTURE WORK
+
 8.1 Practical Applications
 Automated parking systems
 Vehicle entry and exit monitoring
@@ -205,6 +214,7 @@ This project successfully demonstrates a complete License Plate Detection and Ch
 The integration of deep learning with OCR provides an effective solution for automatic number plate recognition. Image preprocessing plays an important role in improving recognition quality, especially for noisy or low-contrast images. The project can serve as a strong base for future real-time intelligent transport and surveillance applications.
 
 Key Achievements
+
 Built a CNN-based system for license plate detection
 Integrated EasyOCR for character recognition
 Applied preprocessing techniques to improve OCR performance
@@ -213,7 +223,8 @@ Generated final plate text from input vehicle images
 Created a practical project suitable for further enhancement
 
 TECHNICAL SPECIFICATIONS
-Software Requirements
+
+Software Requirements:
 Python
 OpenCV
 EasyOCR
@@ -223,13 +234,15 @@ Pandas
 Jupyter Notebook / Google Colab
 
 
-Model and Tools Used
+Model and Tools Used:
+
 Detection Model: CNN
 OCR Tool: EasyOCR
 Image Processing Library: OpenCV
 
  
-REFERENCES
+REFERENCES:
+
 EasyOCR Documentation
 OpenCV Documentation
 Python Documentation
